@@ -25,7 +25,7 @@
 
 ## Kicking things off
 
->It is necessary to have [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) installed in your machine to run this app. Note that the [npm](https://www.npmjs.com/get-npm) already comes with Node.js, so you don't have to worry about it. As the installation depends on the OS of your computer, the best way to go about it is to follow the instructions from their official websites.
+>It is necessary to have [Node.js](https://nodejs.org/en/download/) installed in your machine to run this app. Note that the [npm](https://www.npmjs.com/get-npm) already comes with Node.js, but it is also possible to [Yarn](https://yarnpkg.com/) if you prefer. As the installation depends on the OS of your computer, the best way to go about it is to follow the instructions from their official websites.
 
 Clone this repository and access the project folder typing the following in your terminal:
   ```
@@ -35,7 +35,7 @@ Clone this repository and access the project folder typing the following in your
 
 ### Back-end initialization
 
-Access the back-end directory and install the dependencies:
+Access the back-end directory and install the dependencies (substitute the `yarn` command by `npm install` if you are using npm):
   ```
   cd backend
   yarn
@@ -59,7 +59,16 @@ Then, fire up the application in your web browser from terminal using:
 
 ### Using a mobile device
 
-
+In another terminal window, go to the front-end directory and install the dependencies:
+  ```
+  cd mobile
+  yarn
+  ```
+Then, fire up the application from terminal using:
+  ```
+  npm start
+  ```
+In order to visualize and interact with the app, you can install an emulator in your computer or download the app *expo* in your mobile device. With expo, just read the QR code that will be displayed in your terminal.
 
 -----------
 
